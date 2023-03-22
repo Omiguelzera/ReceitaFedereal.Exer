@@ -68,7 +68,7 @@ public class Contribuinte {
         }
       else{}
       if(salario > 1500 ){
-          irpf= salario *1.5;
+          irpf= salario *0.15;
         }
       else{
           irpf = salario *0.1;
